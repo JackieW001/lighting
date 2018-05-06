@@ -1,0 +1,31 @@
+push
+move
+250 140 0
+rotate
+x 90
+torus
+0 0 0 10 300
+pop
+push
+move
+150 250 0
+rotate
+x 90
+torus
+0 0 0 30 100
+torus
+200 0 0 30 100
+sphere
+0 0 0 20
+sphere
+200 0 0 20
+pop
+push
+move
+230 100 0
+box
+0 0 0 40 80 20
+
+display
+save
+screaming_minion.png
